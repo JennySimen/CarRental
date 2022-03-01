@@ -81,8 +81,6 @@ body {
     .header .wrapper .top-nav .reach-us i {
         padding: 0 5rem;
     }
-    .header .wrapper .top-nav .icons {
-    }
 .header .wrapper .top-nav .icons a {
     cursor: pointer;
     margin-left: 2rem;
@@ -130,6 +128,8 @@ body {
     background: url(../images/car2.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    box-shadow:inset 0 0 0 2000px rgba(34, 34, 34, 0.3);
+
 }
 .home .content {
     text-align: center;
