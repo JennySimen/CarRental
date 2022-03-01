@@ -149,3 +149,45 @@ body {
     text-align: center;
     margin: 10;
 }
+
+.cars {
+    margin: 5rem 0;
+}
+.cars h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+}
+.cars .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:2.5rem;
+    margin: 5rem 40rem;
+}
+
+.cars .box-container .box{
+    padding:5rem;
+    text-align: center;
+    border:var(--border);    
+}
+
+.cars .box-container .box img{
+    height: 15rem;
+}
+
+.cars .box-container.box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+
+.cars .box-container .box .price{
+    font-size: 2rem;
+    padding:.5rem 0;
+}
+.cars .box-container .box:hover {
+    background: #fff;
+}
+.cars .box-container .box:hover > * {
+    color: var(--black);  
+}
