@@ -197,5 +197,45 @@ body {
 
 .about {
     background-color: var(--black);
-    
+    color: var(--white);
+    padding: 5rem;
+}
+.about h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+}
+.about .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:2.5rem;
+    margin: 5rem 40rem;
+}
+
+.about .box-container .box{
+    padding:5rem;
+    text-align: center;
+    border:var(--border);   
+    box-shadow: 2.5px 2.5px 1.5px rgba(225,225,225,.3); 
+}
+
+.about .box-container .box img{
+    height: 5rem;
+}
+
+.about .box-container.box h3{
+    color: #fff;
+    font-size: 2.5rem;
+    padding:1rem 0;
+}
+
+.about .box-container .box .price{
+    font-size: 1.5rem;
+    padding:.5rem 0;
+}
+.about .box-container .box:hover {
+    background: #fff;
+}
+.about .box-container .box:hover > * {
+    color: var(--black);  
 }
