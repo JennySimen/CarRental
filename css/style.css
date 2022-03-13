@@ -246,7 +246,6 @@ body {
 
 
 .review {  
-    min-height: 40vh;  
     align-items: center;  
     font-family: system-ui; 
     padding: 5rem; 
@@ -298,27 +297,27 @@ body {
     
 }  
 @media(max-width:767px) {  
-    i {  
+    .review .container .carousel-inner .carousel-item .stars i {  
         padding: 0.8rem  
     }  
 }  
- .carousel-control-prev {  
+.review .container .carouselExampleIndicators .carousel-control-prev {  
     justify-content: flex-start;  
 }  
- .carousel-control-next {  
+.review .container .carouselExampleIndicators .carousel-control-next {  
     justify-content: flex-end;  
 }  
- .carousel-control-prev
+.review .container .carouselExampleIndicators .carousel-control-prev
 {  
     transition: none;  
     opacity: unset;  
 }  
- .carousel-control-next {  
+.review .container .carouselExampleIndicators .carousel-control-next {  
     transition: none;  
     opacity: unset;  
 }  
 .review .container .carousel-inner .carousel-item {
-    
+    padding: 8rem;
 }
 .review .container .carousel-inner .carousel-item p {
     font-size: 1.5rem;
@@ -327,14 +326,26 @@ body {
     text-align: center;
 }
 .review .container .carousel-inner .carousel-item img{
-    height: 15rem;
     width: 15rem;
+    height: 15rem;
     border-radius: 50%;
     object-fit: cover;
     margin: 0 10rem;
+    justify-content: center;
 }
 .review .container .carousel-inner .carousel-item h3 {
     padding: 1rem 0;
     font-size: 2rem;
-    color: #fff;
+    color: #13131a;
+}
+
+.pages {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 5rem;
+}
+.pages h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
 }
