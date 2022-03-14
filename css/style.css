@@ -317,7 +317,7 @@ body {
     opacity: unset;  
 }  
 .review .container .carousel-inner .carousel-item {
-    padding: 8rem;
+    padding: 2rem;
 }
 .review .container .carousel-inner .carousel-item p {
     font-size: 1.5rem;
@@ -348,4 +348,15 @@ body {
     text-transform: uppercase;
     text-align: center;
     font-size: 3rem;
+}
+.pages .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:4.5rem;
+    margin: 5rem 30rem;
+}
+.pages .box-container .box {
+    padding:5rem;
+    text-align: center;
+    box-shadow: 2.5px 2.5px 1.5px rgba(225,225,225,.3); 
 }
