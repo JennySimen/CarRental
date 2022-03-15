@@ -356,7 +356,8 @@ body {
     margin: 5rem 30rem;
 }
 .pages .box-container .box {
-    padding:5rem;
     text-align: center;
-    box-shadow: 2.5px 2.5px 1.5px rgba(225,225,225,.3); 
+}
+.pages .box-container .box p {
+    font-size: 1.7rem;
 }
