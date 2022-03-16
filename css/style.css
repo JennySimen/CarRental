@@ -361,3 +361,18 @@ body {
 .pages .box-container .box p {
     font-size: 1.7rem;
 }
+
+.footer {
+    background-color: var(--grey);
+    color: #13131a;
+}
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:4.5rem;
+    padding: 1rem 2rem;
+}
+.footer .box-container h3 {
+    font-size: 2.5rem;
+    padding:1rem 0;
+}
