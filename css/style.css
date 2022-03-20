@@ -363,7 +363,7 @@ body {
 }
 
 .footer {
-    background-color: var(--grey);
+    background-color: rgba(216, 207, 207, 0.13);
     color: #13131a;
 }
 .footer .box-container {
@@ -388,4 +388,20 @@ body {
 .footer .box-container .box i {
     font-size: 1.2rem;
     padding: .5rem 0;
+}
+.footer .box-container .box .search-form input{
+    width: 30rem;
+    height: 5rem;
+    align-items: center;
+}
+
+.end {
+    background-color: var(--black);
+}
+.end p {
+    font-size: 1.5rem;
+    color: var(--white);
+}
+.end i {
+    background-color: var(--white);
 }
