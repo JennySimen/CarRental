@@ -417,6 +417,10 @@ body {
 
 
 @media(max-width:767px) {  
+
+    body {
+        width: 100%;
+    }
    
     .btn {
         background-color: var(--main-color);
@@ -451,9 +455,11 @@ body {
     }
     .header .wrapper .top-nav .icons a:hover {
         color: var(--main-color);
-    }
-    /* .header .wrapper .navbar {
+    } 
+    .header .wrapper .navbar {
         padding: 0;
+        display: flex;
+        flex-direction: row;
     }
     .header .wrapper .navbar ul {
         list-style: none;
@@ -470,7 +476,7 @@ body {
         text-decoration: none;
         color: var(--white);
         display: block;
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-transform: uppercase;
         padding: 25px 20px;
         font-weight: bold;
@@ -482,18 +488,14 @@ body {
     }
     
     .header .wrapper .navbar ul .logo img {
-        padding-top: 1rem;
-        height: 6rem;
-        position: absolute;
-        left: 15rem;
-        
+        height: 4rem;
     }
     .header .wrapper .navbar ul a {
         cursor: pointer;
         color: var(--white);
         float: right;
         padding: 2.5rem;
-    } */
+    }
 
 
     .review .container .carousel-inner .carousel-item .stars i {  
