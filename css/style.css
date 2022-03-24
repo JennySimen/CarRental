@@ -195,9 +195,7 @@ body {
 .cars .box-container .box:hover {
     background: #fff;
 }
-.cars .box-container .box:hover > * {
-    color: var(--black);  
-}
+
 
 .about {
     background-color: var(--black);
@@ -331,7 +329,7 @@ body {
     border-radius: 50%;
     object-fit: cover;
     margin: 0 10rem;
-    justify-content: center;
+    
 }
 .review .container .carousel-inner .carousel-item h3 {
     padding: 1rem 0;
@@ -342,7 +340,7 @@ body {
 .pages {
     background-color: var(--black);
     color: var(--white);
-    padding: 5rem;
+    padding: 3rem;
 }
 .pages h1{
     text-transform: uppercase;
@@ -397,6 +395,8 @@ body {
 
 .end {
     background-color: var(--black);
+    display: flex;
+    flex-direction: row;
 }
 .end p {
     font-size: 1.5rem;
@@ -404,4 +404,5 @@ body {
 }
 .end i {
     background-color: var(--white);
+    flex: right;
 }
