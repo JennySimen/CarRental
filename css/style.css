@@ -421,6 +421,11 @@ body {
     body {
         width: 100%;
     }
+
+    #menu-btn{
+        display: inline-block;
+    }
+
    
     .btn {
         background-color: var(--main-color);
@@ -476,9 +481,9 @@ body {
         text-decoration: none;
         color: var(--white);
         display: block;
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-transform: uppercase;
-        padding: 25px 20px;
+        padding: 25px 10px;
         font-weight: bold;
         text-align: center;
        
@@ -494,7 +499,7 @@ body {
         cursor: pointer;
         color: var(--white);
         float: right;
-        padding: 2.5rem;
+        padding: 0rem;
     }
 
 
