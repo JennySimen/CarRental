@@ -424,8 +424,8 @@ body {
 
 @media(max-width:767px) {  
 
-    body {
-        width: 100%;
+    html {
+        font-size: 50%;
     }
 
     #menu-btn{
@@ -532,6 +532,12 @@ body {
     .header .wrapper .navbar ul a i {
         cursor: pointer;
         color: var(--white);
+    }
+
+    .home .content {
+        text-align: center;
+        color: var(--white);
+        margin: 5rem;
     }
     .review .container .carousel-inner .carousel-item .stars i {  
         padding: 0.8rem  
