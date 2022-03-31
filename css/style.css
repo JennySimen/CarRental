@@ -131,7 +131,14 @@ body {
     cursor: pointer;
     color: var(--white);
     float: right;
-    padding: 2.5rem;
+}
+.header .wrapper .navbar ul a i {
+    cursor: pointer;
+    color: var(--white);
+    float: right;
+}
+#menu-btn {
+    display: none;
 }
 
 .home {
@@ -441,7 +448,7 @@ body {
     
     .header .wrapper .top-nav {
         width: 100%;
-        height: 65px;
+        height: 50px;
         background: #fff;
         justify-content: space-between;
         align-items: center;
@@ -452,11 +459,13 @@ body {
         }
         .header .wrapper .top-nav .reach-us i {
             padding: 0 .3rem;
+            font-size: .8rem;
         }
     .header .wrapper .top-nav .icons a {
         cursor: pointer;
         margin-left: 1rem;
         color: #13131a;
+        size: 1rem;
     }
     .header .wrapper .top-nav .icons a:hover {
         color: var(--main-color);
@@ -466,13 +475,32 @@ body {
         display: flex;
         flex-direction: row;
     }
+    
     .header .wrapper .navbar ul {
         list-style: none;
         background: var(--black);
         padding: 0;
         margin: 0;
-        text-align: center;
         width: 100%;
+    }
+    .header .wrapper .navbar ul .logo img {
+        padding-top: 1rem;
+        height: 6rem;
+        left: 15rem;
+     
+    }
+    .header .wrapper .navbar ul a {
+        color: var(--white);
+    }
+    .header .wrapper .navbar ul i {
+        color: var(--white);
+    }
+    #menu-btn{
+        display: inline-block;
+    }
+    #account-btn {
+        display: none;
+    
     }
     .header .wrapper .navbar ul li {
         display: inline-block;
@@ -481,7 +509,7 @@ body {
         text-decoration: none;
         color: var(--white);
         display: block;
-        font-size: 1rem;
+        font-size: .7rem;
         text-transform: uppercase;
         padding: 25px 10px;
         font-weight: bold;
@@ -494,6 +522,7 @@ body {
     
     .header .wrapper .navbar ul .logo img {
         height: 4rem;
+        float: left;
     }
     .header .wrapper .navbar ul a {
         cursor: pointer;
@@ -501,7 +530,6 @@ body {
         float: right;
         padding: 0rem;
     }
-
 
     .review .container .carousel-inner .carousel-item .stars i {  
         padding: 0.8rem  
