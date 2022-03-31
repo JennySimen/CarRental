@@ -135,7 +135,6 @@ body {
 .header .wrapper .navbar ul a i {
     cursor: pointer;
     color: var(--white);
-    float: right;
 }
 #menu-btn {
     display: none;
@@ -521,16 +520,19 @@ body {
     }
     
     .header .wrapper .navbar ul .logo img {
-        height: 4rem;
-        float: left;
+        height: 3rem;
+        left: 0;
+        right: 0;
+        margin: 1rem;
     }
-    .header .wrapper .navbar ul a {
+    .header .wrapper .navbar ul li a {
         cursor: pointer;
         color: var(--white);
-        float: right;
-        padding: 0rem;
     }
-
+    .header .wrapper .navbar ul a i {
+        cursor: pointer;
+        color: var(--white);
+    }
     .review .container .carousel-inner .carousel-item .stars i {  
         padding: 0.8rem  
     }  
