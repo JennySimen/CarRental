@@ -539,7 +539,16 @@ body {
         color: var(--white);
         margin: 5rem;
     }
+
+    .cars .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+        gap:2.5rem;
+        margin: 3rem;
+    }
+    
     .review .container .carousel-inner .carousel-item .stars i {  
-        padding: 0.8rem  
+        padding: 0.8rem; 
+        
     }  
 }  
