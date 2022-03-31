@@ -546,6 +546,16 @@ body {
         gap:2.5rem;
         margin: 3rem;
     }
+
+    .about {
+        padding: 2rem;
+    }
+    .about .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+        gap:2.5rem;
+        margin: 1.5rem;
+    }
     
     .review .container .carousel-inner .carousel-item .stars i {  
         padding: 0.8rem; 
