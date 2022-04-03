@@ -363,7 +363,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:4.5rem;
-    margin: 5rem 30rem;
+    margin: .5rem 2rem;
 }
 .pages .box-container .box {
     text-align: center;
@@ -371,7 +371,10 @@ body {
 .pages .box-container .box p {
     font-size: 1.7rem;
 }
-
+.pages .box-container .box iframev{
+    height: 4rem;
+    width: 2rem;
+}
 .footer {
     background-color: rgba(216, 207, 207, 0.13);
     color: #13131a;
@@ -561,4 +564,11 @@ body {
         padding: 0.8rem; 
         
     }  
+
+    .pages .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+        gap:2.5rem;
+        margin: .5rem;
+    }
 }  
