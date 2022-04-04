@@ -571,4 +571,11 @@ body {
         gap:2.5rem;
         margin: .5rem;
     }
+
+    .footer .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+        gap:4.5rem;
+        padding: 1rem 2rem;
+    }
 }  
